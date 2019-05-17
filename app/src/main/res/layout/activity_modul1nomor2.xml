@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout
+    tools:context=".modul1nomor2"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/hitung"
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:id="@+id/lihat"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/berat"
+        android:id="@+id/berat"
+        android:fontFamily="sans-serif-black"
+        android:textSize="25sp"
+        android:textColor="#0F0D0F"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/inputBerat"
+        android:inputType="number|numberDecimal"
+        android:hint="@string/hintberat"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/tinggi"
+        android:id="@+id/tinggi"
+        android:fontFamily="sans-serif-black"
+        android:textSize="25sp"
+        android:textColor="#0F0D0F"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/inputTinggi"
+        android:inputType="number|numberDecimal"
+        android:hint="@string/hinttinggi"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/hasil"
+        android:id="@+id/hitung"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/result"
+        android:textSize="25sp"/>
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".detailmenu">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/RL1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/image"
+                android:src="@mipmap/ic_launcher"
+                android:padding="5dp"
+                android:layout_width="160dp"
+                android:layout_height="160dp" />
+            <RelativeLayout
+                android:id="@+id/RL11"
+                android:background="@color/LightBlue"
+                android:layout_toRightOf="@id/image"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="160dp">
+                <TextView
+                    android:id="@+id/judulMenu"
+                    android:text="Menu"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/hargaMenu"
+                    android:text="Harga : \nRp. 100000"
+                    android:paddingLeft="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_below="@id/judulMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/jumlah1"
+                    android:text="0"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/hargaMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/min"
+                    android:text="-"
+                    android:layout_below="@id/hargaMenu"
+                    android:layout_toLeftOf="@id/jumlah1"
+                    android:textSize="8dp"
+                    android:onClick="min"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+                <Button
+                    android:id="@+id/plus"
+                    android:text="+"
+                    android:layout_below="@id/hargaMenu"
+                    android:layout_toRightOf="@id/jumlah1"
+                    android:textSize="8dp"
+                    android:onClick="plus"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <ScrollView
+            android:id="@+id/sv"
+            android:layout_below="@+id/RL1"
+            android:padding="12dp"
+            android:background="@color/NavajoWhite"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+            <TextView
+                android:id="@+id/keterangan"
+                android:text="Keterangan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </ScrollView>
+        <Button
+            android:id="@+id/pesan"
+            android:text="pesan"
+            android:layout_below="@+id/sv"
+            android:onClick="pesan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</ScrollView>

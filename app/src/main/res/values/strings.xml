@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">PPBD</string>
+    <string name="namaku">Nama : Gloria Theresia Febryanti \nNIM : 160411100059 \nModul Praktikum PPB D\n\n</string>
+    <string name="modul11">Modul 1-Nomor 1</string>
+    <string name="modul12">Modul 1-Nomor 2</string>
+    <string name="modul2">Modul 2</string>
+    <string name="modul3">Modul 3</string>
+    <string name="modul4">Modul 4</string>
+    <string name="modul5">Modul 5</string>
+    //Modul1.1
+    <string name="inputnama">Masukkan Nama : </string>
+    <string name="hintnama">Enter Your Name</string>
+    <string name="simpan">Simpan</string>
+    //Modul1.2
+    <string name="hitung">HITUNG BMI\n\n</string>
+    <string name="berat">Berat Badan : </string>
+    <string name="hintberat">Masukkan Berat Badan Anda</string>
+    <string name="tinggi">Tinggi Badan : </string>
+    <string name="hinttinggi">Masukkan Tinggi Badan Anda</string>
+    <string name="hasil">Hasil</string>
+    //Modul2
+    <string name="bhs">Bahasa :</string>
+    <string name="nama_pemesan">Nama Pemesan : </string>
+    <string name="menu">Menu Kopi : </string>
+    <string name="arabika">Arabika</string>
+    <string name="american">Americano</string>
+    <string name="robusta">Robusta</string>
+    <string name="sajian">Sajian : </string>
+    <string name="hangat">Panas</string>
+    <string name="dingin">Dingin</string>
+    <string name="jumlah">Jumlah : </string>
+    <string name="pesan">PESAN</string>
+    <string name="namanya">Nama Pemesan :  </string>
+    <string name="total">Total : </string>
+    <string name="bayar">Bayar : </string>
+    <string name="bayarin">BAYAR</string>
+    <string name="kembalian">Kembalian : </string>
+    <string name="detail">Detail Pembayaran : </string>
+    <string name="x"> x </string>
+    <string name="sd"> = </string>
+    <string name="rp">Rp. </string>
+    <string name="f">false</string>
+    <string name="t">true</string>
+    <string name="c1">c1</string>
+    <string name="c2">c2</string>
+    <string name="c3">c3</string>
+    <string name="nama">Lihat Nama</string>
+    <string name="txt_menu1">txtmenu1</string>
+    <string name="hrg_menu1">hrgmenu1</string>
+    <string name="jmlh_menu1">jmlh1</string>
+    <string name="total_menu1">total1</string>
+    <string name="txt_menu2">txtmenu2</string>
+    <string name="hrg_menu2">hrgmenu2</string>
+    <string name="jmlh_menu2">jmlh2</string>
+    <string name="total_menu2">total2</string>
+    <string name="txt_menu3">txtmenu3</string>
+    <string name="hrg_menu3">hrgmenu3</string>
+    <string name="jmlh_menu3">jmlh3</string>
+    <string name="total_menu3">total3</string>
+    //Modul 3
+    <string name="login">LOGIN</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="dialphone">HUBUNGI RUMAH MAKAN</string>
+    //Modul 4
+    <string name="about">About</string>
+    <string name="deskripsi_about">Rumah makan ini sudah disediakan secara online. \nDisini hanya tersedia Coffee Arabica, Americano, dan Robusta. \nCoffee disini dijual dengan harga yang sangat terjangkau. \nSelamat menikmati ^^</string>
+    <string name="logout">Logout</string>
+    <string name="detailmenu">Detail Menu</string>
+    <string name="uang">price</string>
+    <string name="judul">Judul</string>
+    <string name="lengkap">Selengkapnya</string>
+    <string name="tHarga"> Harga : \t\t Rp. </string>
+</resources>
